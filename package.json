@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "dev:both": "npm run dev & sleep 2 && start chrome http://localhost:5173 && start firefox http://localhost:5173"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.14",
