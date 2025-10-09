@@ -4,7 +4,7 @@ import Logo from '../assets/Logo.png'
 export default function Navbar() {
   return (
     <>
-    <section className='bg-blue-600 sm:bg-red-600 md:bg-amber-900 lg:bg-purple-900 xl:bg-sky-900 2xl:bg-emerald-900'>
+    <section className=''>
       <ul className='flex gap-4 mx-5 mt-2 items-center justify-between sm:justify-normal xl:text-xl 2xl:text-3xl'>
         <li><Link to='/'>Home</Link></li>
         <li><Link to='/About'>About</Link></li>
