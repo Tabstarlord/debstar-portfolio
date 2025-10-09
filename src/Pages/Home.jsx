@@ -22,7 +22,7 @@ export default function Home() {
           <h4 className="text-md font-serif font-semibold mx-2 text-center xl:text-2xl 2xl:text-4xl">Crafting Seamless User Experiences with Modern Web Technologies</h4>
           <p className="text-xs text-center mx-2 lg:text-lg xl:text-3xl 2xl:text-5xl">A passionate frontend developer with a focus on building accessible, high-performance, and visually stunning web applicatins. Dedicated to pixel-perfectdesigs and intuitive user interface</p>
 
-          <button className="w-full"><Link to='/Projects' className="bg-gradient-to-l from-blue-600 to-violet-600 py-1 px-4 rounded-full font-semibold xl:text-2xl 2xl:text-3xl">View My Work</Link></button>
+          <button className="w-full"><Link to='/About' className="bg-gradient-to-l from-blue-600 to-violet-600 py-1 px-4 rounded-full font-semibold xl:text-2xl 2xl:text-3xl">View My Work</Link></button>
         </div>
       </div>
       <h2 className="text-xl font-bold mx-auto text-center py-2 md:text-2xl lg:text-4xl xl:text-5xl 2xl:text-6xl">Innovation Through Code and Design</h2>

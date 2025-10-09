@@ -5,7 +5,7 @@ import emailjs from 'emailjs-com'
 import Navbar from '../Components/Navbar'
 import Footer from '../Components/Footer'
 
-import Send from '../assets/telegram.png'
+
 
 export default function Contact() {
   const [form, setForm] = useState({ name: "", email: "", message: ""});
@@ -31,7 +31,7 @@ export default function Contact() {
   return (
    <>
    <Navbar />
-   <div className='bg-gray-800 mx-5 my-5 rounded-xl md:w-fit md:mx-auto'>
+   <div className='bg-gray-800 mx-5 my-5 rounded-xl md:w-fit md:mx-auto md:mb-10 xl:mb-65'>
     <form onSubmit={sendEmail} className='px-auto mx-2 py-5'>
       <h2 className='text-xl font-bold text-center pt-2'>Get in Touch</h2>
       <p className='mx-2 text-sm text-center pt-2'>Have a project idea, or a question? Feel free to use the contact form.</p>
@@ -72,9 +72,7 @@ export default function Contact() {
       
        <button type='submit'  className='mt-3 bg-blue-700 py-1 font-semibold w-full rounded-lg'>
         Send Message
-       </button>
-
-       
+       </button>       
    </form>
    </div>
    <Footer />

@@ -9,7 +9,7 @@ export default function Navbar() {
         <li><Link to='/'>Home</Link></li>
         <li><Link to='/About'>About</Link></li>
         <li><Link to='/Contact'>Contact</Link></li>
-        <li><Link to='/Projects'>Projects</Link></li>
+        
 
         <img src={Logo} alt='Logo' className='w-6 h-6 sm:hidden' />
       </ul>
